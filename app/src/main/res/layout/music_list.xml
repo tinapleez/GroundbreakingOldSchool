@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/text_view_margin"
         android:textSize="@dimen/text_size_song"
+        android:textStyle="bold"
         android:id="@+id/text_main_song"
         tools:text="song" />
 
@@ -31,6 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/text_view_margin"
         android:textSize="@dimen/text_size_year"
+        android:textStyle="italic"
         android:id="@+id/text_main_year"
         tools:text="year"/>
 </LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2018. Tina Taylor  All Rights Reserved
+  -->
+
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/music_list_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/listview_padding" />

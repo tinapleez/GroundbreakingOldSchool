@@ -9,4 +9,7 @@
     <dimen name="text_size_song">20sp</dimen>
     <dimen name="text_size_year">16sp</dimen>
     <dimen name="text_size_artist">18sp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="button_width">40dp</dimen>
+    <dimen name="button_marginRight">16dp</dimen>
 </resources>

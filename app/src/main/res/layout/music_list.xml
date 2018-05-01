@@ -13,18 +13,24 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_view_margin"
+        android:textSize="@dimen/text_size_song"
         android:id="@+id/text_main_song"
-        tools:text="song"/>
+        tools:text="song" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_view_margin"
+        android:textSize="@dimen/text_size_artist"
         android:id="@+id/text_main_artist"
-        tools:text="one"/>
+        tools:text="artist"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/text_view_margin"
+        android:textSize="@dimen/text_size_year"
         android:id="@+id/text_main_year"
-        tools:text="one"/>
+        tools:text="year"/>
 </LinearLayout>

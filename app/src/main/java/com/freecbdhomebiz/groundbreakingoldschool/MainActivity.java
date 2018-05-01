@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Custom Array list of Songs and Artists and Year
         ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("Funky Four Plus One", "Rocking the House", "1979"));
-        songs.add(new Song("Sugarhill Gang", "Rappers Delight", "1979"));
-        songs.add(new Song("Kurtis Blow", "The Breaks", "1980"));
-        songs.add(new Song("Afrika Bambaataa & The Soulsonic Force", "Planet Rock", "1982"));
-        songs.add(new Song("The Fearless Four", "Rockin It", "1982"));
+        songs.add(new Song("Rocking the House", "Funky Four Plus One", "1979"));
+        songs.add(new Song("Rappers Delight","Sugarhill Gang",  "1979"));
+        songs.add(new Song("The Breaks","Kurtis Blow",  "1980"));
+        songs.add(new Song("Planet Rock","Afrika Bambaataa & The Soulsonic Force",  "1982"));
+        songs.add(new Song("Rockin It","The Fearless Four",  "1982"));
 
 
         // Create an {@link SongAdapter}, whose data source is a music_list_view of {@link Song}s.

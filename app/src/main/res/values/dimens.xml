@@ -15,7 +15,7 @@
     <dimen name="playscreen_layout_padding">16dp</dimen>
     <dimen name="text_size_song_playscreen">30sp</dimen>
     <dimen name="text_size_artist_playscreen">20sp</dimen>
-    <dimen name="text_view_artist_playscreen_margin">36dp</dimen>
-    <dimen name="text_view_song_playscreen_margin">16dp</dimen>
+    <dimen name="text_view_artist_playscreen_margin">30dp</dimen>
+    <dimen name="text_view_song_playscreen_margin">8dp</dimen>
     <dimen name="button_back_padding">8dp</dimen>
 </resources>

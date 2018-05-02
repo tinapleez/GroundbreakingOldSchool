@@ -3,6 +3,7 @@
   -->
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,12 +26,32 @@
         android:id="@+id/text_song_play_screen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/text_artist_play_screen"
+        android:layout_alignLeft="@+id/text_artist_play_screen"
+        android:layout_alignStart="@+id/text_artist_play_screen"
+        android:layout_below="@+id/text_artist_play_screen"
         android:layout_marginTop="@dimen/text_view_song_playscreen_margin"
         android:gravity="center_horizontal"
         android:textColor="@android:color/white"
         android:textSize="@dimen/text_size_song_playscreen"
         tools:text="Song" />
+
+    <ImageView
+        android:id="@+id/image_musical_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_song_play_screen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/text_view_artist_playscreen_margin"
+        android:src="@drawable/music" />
+
+    <ImageView
+        android:id="@+id/image_play_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_musical_note"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/text_view_artist_playscreen_margin"
+        app:srcCompat="@drawable/playpause" />
 
     <Button
         android:id="@+id/button_playscreen_back"

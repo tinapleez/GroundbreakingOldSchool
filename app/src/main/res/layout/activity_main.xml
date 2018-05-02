@@ -5,7 +5,7 @@
 
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/music_list_view"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/listview_padding" />
+    android:background="@color/list_view_background_color"
+    android:orientation="vertical" />

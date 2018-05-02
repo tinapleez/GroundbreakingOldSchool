@@ -4,4 +4,7 @@
 
 <resources>
     <string name="app_name">Groundbreaking Old School</string>
+    <string name="button_back_to_list">Back to List</string>
+    <string name="button_main_go">Go</string>
+    <string name="image_view_main_descr">Play Button</string>
 </resources>

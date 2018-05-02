@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Copyright (c) 2018. Tina Taylor  All Rights Reserved
-  -->
-
+<?xml version="1.0" encoding="utf-8"?><!--   ~ Copyright (c) 2018. Tina Taylor  All Rights Reserved -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.freecbdhomebiz.groundbreakingoldschool">
+
+    <uses-permission android:name="android.permission.INTERNET">
+
+    </uses-permission>
 
     <application
         android:allowBackup="true"
@@ -19,6 +19,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayScreen"
+            android:label="Now Playing">
+
+
         </activity>
     </application>
 

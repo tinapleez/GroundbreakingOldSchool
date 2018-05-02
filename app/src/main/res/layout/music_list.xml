@@ -7,22 +7,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="@dimen/listview_padding">
 
-    <Button
-        android:id="@+id/button_list"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
-        android:layout_marginRight="@dimen/button_marginRight"
-        android:text="Play" />
+    <ImageView
+        android:id="@+id/image_view_main_button"
+        android:layout_width="@dimen/button_main_width"
+        android:layout_height="@dimen/button_main_height"
+        android:contentDescription="@string/image_view_main_descr"
+        android:padding="@dimen/listview_padding"
+        android:src="@drawable/play" />
 
     <TextView
         android:id="@+id/text_main_song"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/text_view_margin"
-        android:textSize="@dimen/text_size_song"
+        android:layout_marginLeft="@dimen/text_view_main_margin"
+        android:textSize="@dimen/text_size_main_song"
         android:textStyle="bold"
         tools:text="song" />
 
@@ -30,19 +32,19 @@
         android:id="@+id/text_main_artist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/text_view_margin"
-        android:textSize="@dimen/text_size_artist"
         android:layout_below="@id/text_main_song"
+        android:layout_marginLeft="@dimen/text_view_main_margin"
+        android:textSize="@dimen/text_size_main_artist"
         tools:text="artist" />
 
     <TextView
         android:id="@+id/text_main_year"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/text_view_margin"
-        android:textSize="@dimen/text_size_year"
-        android:textStyle="italic"
         android:layout_below="@id/text_main_artist"
+        android:layout_marginLeft="@dimen/text_view_main_margin"
+        android:textSize="@dimen/text_size_main_year"
+        android:textStyle="italic"
         tools:text="year" />
 
 </RelativeLayout>

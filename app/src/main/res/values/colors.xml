@@ -4,7 +4,10 @@
   -->
 
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryDark">#00695C</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="list_view_background_color">#E0F2F1</color>
+    <color name="layout_background_playscreen">#009688</color>
+    <color name="button_back_background">#A7FFEB</color>
 </resources>

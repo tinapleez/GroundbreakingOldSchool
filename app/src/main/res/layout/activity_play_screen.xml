@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2018. Tina Taylor  All Rights Reserved
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background_playscreen"
+    android:padding="@dimen/playscreen_layout_padding"
+    tools:context="com.freecbdhomebiz.groundbreakingoldschool.PlayScreen">
+
+    <TextView
+        android:id="@+id/text_artist_play_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_view_artist_playscreen_margin"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_artist_playscreen"
+        android:textStyle="italic"
+        tools:text="Artist" />
+
+    <TextView
+        android:id="@+id/text_song_play_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_artist_play_screen"
+        android:layout_marginTop="@dimen/text_view_song_playscreen_margin"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_song_playscreen"
+        tools:text="Song" />
+
+    <Button
+        android:id="@+id/button_playscreen_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/button_back_background"
+        android:padding="@dimen/button_back_padding"
+        android:text="@string/button_back_to_list" />
+
+</RelativeLayout>
